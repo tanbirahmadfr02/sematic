@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.show{
+    right: 0;
+    opacity: 1;
+}
+
+.mixitup-control-active{
+    background-color: #cd3a54;
+    color: white;
+}
+
+ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.arrow{
+    width: 35px;
+    height: 35px;
+    background-color: #cd3a54;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: -50px;
+}
+
+.prevArrow{
+    left: 46%;
+}
+.nextArrow{
+    right: 46%;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .prevArrow{
+        left: 44%;
+    }
+    .nextArrow{
+        right: 44%;
+    }
+}
+@media (max-width: 575.98px) {
+    .prevArrow{
+        left: 38%;
+    }
+    .nextArrow{
+        right: 38%;
+    }
+}
